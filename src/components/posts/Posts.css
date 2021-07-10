@@ -1,0 +1,41 @@
+.reddit-pics > div {
+	background-color: #fff;
+	margin: 1rem 0;
+	display: flex;
+	position: relative;
+}
+
+.votes {
+	background-color: #f5f8f9e9;
+	margin-right: 0.3rem;
+	padding: 0.3rem;
+}
+
+.reddit-pics a {
+	text-decoration: none;
+}
+
+.reddit-pics a img {
+	width: 100%;
+}
+
+.reddit-pics .post {
+	color: #333333cf;
+	padding-right: 4rem;
+}
+
+.reddit-pics button {
+	position: absolute;
+	top: 1.4rem;
+	right: 1.6rem;
+	border-radius: 12px;
+	border: none;
+}
+
+.reddit {
+	color: black;
+}
+
+.comment-section {
+	padding-right: 10px;
+}

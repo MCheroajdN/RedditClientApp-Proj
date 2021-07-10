@@ -1,0 +1,45 @@
+:root {
+	--space: 2rem;
+}
+body {
+	
+	background-color: aquamarine;
+}
+
+aside {
+	position: absolute;
+	top: 21rem;
+	right: 4rem;
+	width: 15.5rem !important;
+	background-color: lightgrey;
+	overflow: hidden;
+}
+
+footer {
+	left: 0;
+	right: 0;
+	margin-top: 2rem;
+	height: 2rem;
+	
+	background-color: aquamarine;
+	text-align: center;
+	padding: 2rem;
+}
+
+@media (max-width: 767px) {
+	aside {
+		display: none;
+	}
+}
+@media (min-width: 768px) {
+	aside {
+		width: 15rem;
+		right: 1rem;
+	}
+}
+
+@media (min-width: 1400px) {
+	aside {
+		right: 8rem;
+	}
+}

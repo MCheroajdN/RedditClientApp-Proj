@@ -1,0 +1,19 @@
+.subreddit {
+	padding: 1rem;
+}
+
+.subreddit > div:hover {
+	cursor: pointer;
+}
+/* .subreddit:first-child {
+	margin-top: -5rem;
+} */
+
+.subreddit img {
+	width: 25px;
+	height: 25px;
+}
+
+.subreddit span {
+	padding-left: 0.4rem;
+}

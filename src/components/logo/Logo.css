@@ -1,0 +1,34 @@
+.logo img {
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	padding: 0.3rem;
+}
+.logo span {
+	font-family: 'Roboto', serif;
+	padding-left: 2px;
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: red;
+}
+.logo span small {
+	color: rgb(190, 66, 66);
+}
+.logo:hover {
+	text-decoration: none;
+}
+
+@media (max-width: 1060px) {
+	.logo span {
+		font-size: 0.8rem;
+	}
+}
+
+@media (max-width: 1035px) {
+	.logo span {
+		display: none;
+	}
+	.logo img {
+		margin-right: 1rem;
+	}
+}

@@ -1,0 +1,27 @@
+#login-btn {
+	border-radius: 40px;
+	padding: 0.3rem 1rem;
+	font-size: 15px;
+	font-weight: bold;
+	margin: 0 0.4rem;
+}
+
+#username,
+#password {
+	font-size: 0.6rem;
+	background-color: #d2f4f5;
+	opacity: 0.5;
+}
+
+#loginFormModal {
+	margin-top: 3rem;
+}
+
+.modal-backdrop {
+	z-index: 4;
+}
+@media (max-width: 600px) {
+	#login-btn {
+		display: none;
+	}
+}

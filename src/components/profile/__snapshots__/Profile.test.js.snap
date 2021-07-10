@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Profile Component shallow rendering 1`] = `
+<ul
+  className="profile-menu"
+  onClick={[Function]}
+>
+  <li>
+    <span
+      role="profile"
+    >
+      <i
+        className="fas fa-user"
+      />
+       
+      <i
+        className="fas fa-caret-down"
+      />
+    </span>
+    
+  </li>
+</ul>
+`;

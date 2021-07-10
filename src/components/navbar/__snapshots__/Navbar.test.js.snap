@@ -1,0 +1,396 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar Component matches snapshot 1`] = `
+<header>
+  <nav>
+    <div>
+      <a
+        aria-current="page"
+        className="logo active"
+        href="/"
+        onClick={[Function]}
+        style={Object {}}
+      >
+        <img
+          alt="Reddit Logo"
+          src="logo.png"
+        />
+        <span>
+          Simple
+          <small>
+            REDDIT
+          </small>
+        </span>
+      </a>
+    </div>
+    <input
+      className=" search-input search"
+      name="search"
+      placeholder=" Search"
+      role="search"
+      style={
+        Object {
+          "fontFamily": "fontawesome",
+        }
+      }
+      type="text"
+    />
+    <div
+      className="flex-nav"
+    >
+      <div>
+        <button
+          aria-label="login button"
+          class="btn border-primary bg-light text-primary"
+          data-target="#loginFormModal"
+          data-toggle="modal"
+          role="button"
+          type="button"
+        >
+          Login
+        </button>
+        <div
+          className="modal fade"
+          id="loginFormModal"
+          role="dialog"
+          tabIndex="-1"
+        >
+          <div
+            className="row"
+          >
+            <div
+              className="col-md-8 offset-2"
+            >
+              <div
+                className="modal-dialog"
+                role="document"
+              >
+                <div
+                  className="modal-content text-left"
+                >
+                  <div
+                    className="modal-header"
+                  >
+                    <div
+                      className="modal-title  pt-4"
+                    >
+                      Login
+                      <small
+                        className="d-block"
+                      >
+                        By continuing, you agree to our
+                         
+                        <span
+                          className="text-primary"
+                        >
+                          User Agreement 
+                        </span>
+                         and
+                         
+                        <span
+                          className="text-primary"
+                        >
+                          Privacy Policy
+                        </span>
+                        .
+                      </small>
+                    </div>
+                    <button
+                      aria-label="Close"
+                      className="close"
+                      data-dismiss="modal"
+                      type="button"
+                    >
+                       
+                      <span
+                        arial-hidden="true"
+                      >
+                        ×
+                      </span>
+                    </button>
+                  </div>
+                  <div
+                    className="modal-body pt-5"
+                  >
+                    <div
+                      className="border border-primary  p-3"
+                    >
+                      <a
+                        href="/"
+                        onClick={[Function]}
+                      >
+                        <i
+                          className="fab fa-google"
+                        />
+                         Continue With Google
+                      </a>
+                    </div>
+                    <div
+                      className="border border-primary  p-3 mt-2"
+                    >
+                      <a
+                        href="/"
+                        onClick={[Function]}
+                      >
+                        <i
+                          className="fab fa-apple"
+                        />
+                         Continue With Apple
+                      </a>
+                    </div>
+                    <p
+                      className="text-muted ml-5 pt-3"
+                    >
+                      OR 
+                    </p>
+                    <div>
+                      <form
+                        className="pt-3 "
+                      >
+                        <input
+                          className=" text-muted p-3 form-control"
+                          id="username"
+                          name="username"
+                          placeholder="USERNAME"
+                          type="text"
+                        />
+                        <input
+                          className=" text-muted p-3 mt-2 form-control"
+                          id="password"
+                          name="password"
+                          placeholder="PASSWORD"
+                          type="password"
+                        />
+                        <input
+                          className="bg-primary mt-2 text-light rounded form-control"
+                          type="submit"
+                          value="login"
+                        />
+                      </form>
+                      <small
+                        className="mt-3"
+                      >
+                        Forgot your
+                         
+                        <a
+                          className="text-primary"
+                          href="/"
+                          onClick={[Function]}
+                        >
+                          username
+                        </a>
+                         
+                        or
+                         
+                        <a
+                          className="text-primary"
+                          href="/"
+                          onClick={[Function]}
+                        >
+                          password
+                        </a>
+                         
+                        ?
+                      </small>
+                      <small
+                        className="mt-3 d-block"
+                      >
+                        New to Reddit?
+                        <span
+                          className="text-primary"
+                          data-dismiss="modal"
+                          data-target="#signUpFormModal"
+                          data-toggle="modal"
+                          style={
+                            Object {
+                              "cursor": "pointer",
+                            }
+                          }
+                        >
+                           
+                          SIGN UP
+                        </span>
+                      </small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <button
+          aria-label="sign up button"
+          class="btn bg-primary text-light"
+          data-target="#signUpFormModal"
+          data-toggle="modal"
+          id="sign-up-btn"
+          role="button"
+          type="button"
+        >
+          Sign up
+        </button>
+        <div
+          className="modal fade"
+          id="signUpFormModal"
+          role="dialog"
+          tabIndex="-1"
+        >
+          <div
+            className="modal-dialog"
+            role="document"
+          >
+            <div
+              className="modal-content text-left"
+            >
+              <div
+                className="modal-header"
+              >
+                <div
+                  className="modal-title  pt-4"
+                >
+                  Sign up
+                  <small
+                    className="d-block"
+                  >
+                    By continuing, you agree to our
+                     
+                    <span
+                      className="text-primary"
+                    >
+                      User Agreement 
+                    </span>
+                     and
+                     
+                    <span
+                      className="text-primary"
+                    >
+                      Privacy Policy
+                    </span>
+                    .
+                  </small>
+                </div>
+                <button
+                  aria-label="Close"
+                  className="close"
+                  data-dismiss="modal"
+                  type="button"
+                >
+                   
+                  <span
+                    arial-hidden="true"
+                  >
+                    ×
+                  </span>
+                </button>
+              </div>
+              <div
+                className="modal-body pt-5"
+              >
+                <input
+                  className="text-left "
+                  name="reddit-emails"
+                  type="checkbox"
+                  value="I agree to get emails about cool stuff on Reddit"
+                />
+                 
+                <label
+                  htmlFor="reddit-emails"
+                >
+                  I agree to get emails about cool stuff on Reddit
+                </label>
+                <div
+                  className="border border-primary  p-3"
+                >
+                  <a
+                    href="/"
+                    onClick={[Function]}
+                  >
+                    <i
+                      className="fab fa-google"
+                    />
+                     Continue With Google
+                  </a>
+                </div>
+                <div
+                  className="border border-primary  p-3 mt-2"
+                >
+                  <a
+                    href="/"
+                    onClick={[Function]}
+                  >
+                    <i
+                      className="fab fa-apple"
+                    />
+                     Continue With Apple
+                  </a>
+                </div>
+                <p
+                  className="text-muted ml-5 pt-3"
+                >
+                  OR 
+                </p>
+                <form
+                  className="form-group pt-3 "
+                >
+                  <input
+                    className="bg-light text-muted p-3 d-block form-control"
+                    id="email"
+                    name="email"
+                    placeholder="EMAIL"
+                    type="email"
+                  />
+                  <input
+                    className="bg-primary mt-2 text-light d-block rounded form-control"
+                    type="submit"
+                    value="Continue"
+                  />
+                </form>
+                <small
+                  className="mt-3 d-block"
+                >
+                  Already a redditor?
+                  <a
+                    className="text-primary"
+                    data-dismiss="modal"
+                    data-target="#loginFormModal"
+                    data-toggle="modal"
+                    style={
+                      Object {
+                        "cursor": "pointer",
+                      }
+                    }
+                  >
+                     
+                    LOG IN
+                  </a>
+                </small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <ul
+        className="profile-menu"
+        onClick={[Function]}
+      >
+        <li>
+          <span
+            role="profile"
+          >
+            <i
+              className="fas fa-user"
+            />
+             
+            <i
+              className="fas fa-caret-down"
+            />
+          </span>
+          
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+`;

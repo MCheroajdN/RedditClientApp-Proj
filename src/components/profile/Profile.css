@@ -1,0 +1,48 @@
+ul.profile-menu {
+	list-style: none;
+	padding: 0.4rem;
+	width: 3rem;
+	height: 2rem;
+	margin-left: 0.4rem;
+	box-shadow: 1px 1px 1px 1px #eeebeb, inset 1px 1px 1px 1px #eeebeb;
+	border-radius: 2px;
+	text-align: left;
+}
+ul li {
+	position: relative;
+}
+
+ul li span {
+	color: #353131;
+	opacity: 0.6;
+	cursor: pointer;
+}
+ul li ul {
+	list-style: none;
+	position: absolute;
+	top: 40px;
+	left: -7rem;
+	width: 10rem;
+	background-color: #fff;
+	text-align: left;
+	padding: 1rem 0.4rem 1rem 0.2rem;
+	box-shadow: 1px 1px 1px 1px #fff, inset 1px 1px 1px 1px #fff;
+	z-index: 2;
+}
+
+ul li ul li {
+	padding: 0.7rem 0.4rem;
+	font-size: 15px;
+}
+
+.menu-list a {
+	color: #353131;
+	text-decoration: none;
+}
+
+.menu-list a:hover {
+	background-color: #0088ff;
+	color: #fff !important;
+	transition: all 0.2s ease-in;
+	padding: 0.7rem 0.7rem 0.7rem 0;
+}
